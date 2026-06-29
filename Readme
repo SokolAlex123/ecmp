@@ -1,0 +1,5 @@
+Перейти в папку с артефактами и выполнить:
+docker build -t ecmp-lab .
+
+После сборки запустить образ:
+docker run --privileged --rm ecmp-lab
